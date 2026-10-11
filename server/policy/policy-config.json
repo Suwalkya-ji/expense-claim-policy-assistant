@@ -1,0 +1,274 @@
+{
+  "baseCurrency": "USD",
+  "fxRatesToUSD": {
+    "USD": 1,
+    "EUR": 1.08,
+    "GBP": 1.27,
+    "INR": 0.012,
+    "CAD": 0.73,
+    "AUD": 0.66
+  },
+  "receiptThresholdUSD": 25,
+  "submissionWindowDays": 90,
+  "categories": {
+    "meals": {
+      "label": "Meals",
+      "limitUSD": 150,
+      "dailyLimitUSD": 75,
+      "policySection": "MEAL-1",
+      "keywords": [
+        "meal",
+        "lunch",
+        "dinner",
+        "breakfast",
+        "restaurant",
+        "food",
+        "coffee",
+        "cafe",
+        "snack",
+        "catering",
+        "client dinner",
+        "drinks"
+      ],
+      "exclusions": [
+        {
+          "keywords": [
+            "team lunch",
+            "team dinner",
+            "colleagues only",
+            "with coworkers",
+            "with co-workers"
+          ],
+          "quote": "Meals with only fellow employees, outside travel, are not reimbursable unless pre-approved as a team event."
+        }
+      ]
+    },
+    "airfare": {
+      "label": "Travel – Airfare & Rail",
+      "limitUSD": 1500,
+      "policySection": "TRAV-1",
+      "keywords": [
+        "flight",
+        "airfare",
+        "airline",
+        "plane",
+        "train",
+        "rail",
+        "ticket",
+        "boarding"
+      ],
+      "exclusions": [
+        {
+          "keywords": [
+            "upgrade",
+            "loyalty",
+            "in-flight",
+            "inflight",
+            "wifi on board"
+          ],
+          "quote": "Seat upgrades, loyalty program fees, and in-flight entertainment are not reimbursable."
+        },
+        {
+          "keywords": [
+            "business class",
+            "first class"
+          ],
+          "quote": "Business-class airfare is permitted only for flights longer than 6 hours and requires prior approval."
+        }
+      ]
+    },
+    "ground_transport": {
+      "label": "Travel – Ground Transport",
+      "limitUSD": 100,
+      "policySection": "TRAV-2",
+      "keywords": [
+        "taxi",
+        "uber",
+        "lyft",
+        "cab",
+        "ride",
+        "parking",
+        "toll",
+        "metro",
+        "bus",
+        "shuttle",
+        "car rental",
+        "fuel",
+        "gas",
+        "mileage"
+      ],
+      "exclusions": [
+        {
+          "keywords": [
+            "commute",
+            "commuting",
+            "office to home",
+            "home to office",
+            "home to work",
+            "work to home",
+            "from home to the office",
+            "from the office to home"
+          ],
+          "quote": "Commuting between home and the regular office is not reimbursable."
+        }
+      ]
+    },
+    "lodging": {
+      "label": "Lodging",
+      "limitUSD": 250,
+      "policySection": "LODG-1",
+      "keywords": [
+        "hotel",
+        "lodging",
+        "accommodation",
+        "airbnb",
+        "inn",
+        "motel",
+        "stay",
+        "room",
+        "night"
+      ],
+      "exclusions": [
+        {
+          "keywords": [
+            "room service",
+            "minibar",
+            "mini bar",
+            "in-room movie",
+            "movie",
+            "laundry"
+          ],
+          "quote": "Room service, minibar, laundry for stays under 5 nights, and in-room movies are personal expenses and are not reimbursable."
+        }
+      ]
+    },
+    "office_supplies": {
+      "label": "Office Supplies & Equipment",
+      "limitUSD": 200,
+      "policySection": "OFF-1",
+      "keywords": [
+        "keyboard",
+        "mouse",
+        "headset",
+        "cable",
+        "stationery",
+        "pens",
+        "notebook",
+        "supplies",
+        "adapter",
+        "charger",
+        "desk"
+      ]
+    },
+    "software": {
+      "label": "Software & Subscriptions",
+      "limitUSD": 100,
+      "policySection": "SOFT-1",
+      "keywords": [
+        "software",
+        "subscription",
+        "license",
+        "licence",
+        "saas",
+        "app",
+        "plan",
+        "cloud",
+        "api"
+      ],
+      "exclusions": [
+        {
+          "keywords": [
+            "netflix",
+            "spotify",
+            "disney",
+            "prime video",
+            "streaming",
+            "gaming",
+            "game pass",
+            "xbox",
+            "playstation"
+          ],
+          "quote": "Personal streaming, gaming, or entertainment subscriptions are not reimbursable."
+        }
+      ]
+    },
+    "training": {
+      "label": "Training & Development",
+      "limitUSD": 1000,
+      "policySection": "TRN-1",
+      "keywords": [
+        "course",
+        "training",
+        "certification",
+        "conference",
+        "workshop",
+        "seminar",
+        "book",
+        "exam",
+        "registration"
+      ]
+    },
+    "client_gifts": {
+      "label": "Client Gifts",
+      "limitUSD": 50,
+      "policySection": "GIFT-1",
+      "keywords": [
+        "gift",
+        "present",
+        "hamper",
+        "flowers",
+        "thank-you"
+      ],
+      "exclusions": [
+        {
+          "keywords": [
+            "gift card",
+            "voucher",
+            "cash"
+          ],
+          "quote": "Cash or cash-equivalent gifts (gift cards) are prohibited."
+        }
+      ]
+    },
+    "telecom": {
+      "label": "Telecommunications",
+      "limitUSD": 80,
+      "policySection": "TEL-1",
+      "keywords": [
+        "phone",
+        "mobile",
+        "internet",
+        "roaming",
+        "sim",
+        "data plan",
+        "wifi"
+      ]
+    }
+  },
+  "generalExclusions": {
+    "policySection": "NONR-1",
+    "quote": "The following are never reimbursable: personal entertainment, fines and penalties (including parking and speeding tickets), personal grooming, clothing, childcare, pet care, political or charitable contributions, and expenses already reimbursed by a client or third party.",
+    "keywords": [
+      "parking fine",
+      "speeding",
+      "traffic fine",
+      "fined",
+      "penalty",
+      "parking ticket",
+      "haircut",
+      "grooming",
+      "clothing",
+      "clothes",
+      "childcare",
+      "babysitter",
+      "pet care",
+      "dog",
+      "cat food",
+      "donation",
+      "charity",
+      "political",
+      "reimbursed by the client",
+      "reimbursed by client"
+    ]
+  }
+}

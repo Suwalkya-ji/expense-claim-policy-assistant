@@ -1,0 +1,14 @@
+[
+  { "claimant": "Priya Sharma", "daysAgo": 5, "category": "Meals", "amount": 62.5, "currency": "USD", "description": "Dinner while travelling to the Boston client site", "receiptAvailable": "yes" },
+  { "claimant": "Priya Sharma", "daysAgo": 5, "category": "Meals", "amount": 62.5, "currency": "USD", "description": "Dinner Boston trip", "receiptAvailable": "yes" },
+  { "claimant": "Marcus Lee", "daysAgo": 12, "category": "Lodging", "amount": 410, "currency": "USD", "description": "Hotel near conference venue", "receiptAvailable": "yes" },
+  { "claimant": "Marcus Lee", "daysAgo": 12, "category": "Travel", "amount": 48, "currency": "USD", "description": "Uber from airport to hotel", "receiptAvailable": "no" },
+  { "claimant": "Aisha Khan", "daysAgo": 3, "category": "Other", "amount": 89, "currency": "EUR", "description": "Team stuff for the offsite", "receiptAvailable": "yes" },
+  { "claimant": "Aisha Khan", "daysAgo": 20, "category": "Software", "amount": 29, "currency": "USD", "description": "Figma professional plan - monthly", "receiptAvailable": "yes" },
+  { "claimant": "Daniel Okafor", "daysAgo": -4, "category": "Airfare", "amount": 640, "currency": "USD", "description": "Economy flight to Lagos for partner meeting", "receiptAvailable": "yes" },
+  { "claimant": "Daniel Okafor", "daysAgo": 130, "category": "Training", "amount": 450, "currency": "GBP", "description": "AWS Solutions Architect certification exam and course", "receiptAvailable": "yes" },
+  { "claimant": "Sofia Rossi", "daysAgo": 8, "category": "Meals", "amount": 18, "currency": "USD", "description": "Parking fine outside client office", "receiptAvailable": "no" },
+  { "claimant": "Sofia Rossi", "daysAgo": 9, "category": "Meals", "amount": 520, "currency": "USD", "description": "Client dinner with 4 attendees from Globex to discuss renewal", "receiptAvailable": "yes" },
+  { "claimant": "Wei Chen", "daysAgo": 2, "category": "Office Supplies", "amount": 4500, "currency": "INR", "description": "Mechanical keyboard and mouse for home office", "receiptAvailable": "yes" },
+  { "claimant": "Wei Chen", "daysAgo": 2, "category": "", "amount": 35, "currency": "JPY", "description": "", "receiptAvailable": "" }
+]

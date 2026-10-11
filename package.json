@@ -1,0 +1,18 @@
+{
+  "name": "expense-claim-review",
+  "private": true,
+  "description": "Expense Claim Policy Review Assistant (MERN)",
+  "scripts": {
+    "install:all": "npm install --prefix server && npm install --prefix client",
+    "ci:all": "npm ci --prefix server && npm ci --prefix client",
+    "dev:server": "npm run dev --prefix server",
+    "dev:client": "npm run dev --prefix client",
+    "build": "npm run build --prefix client",
+    "start": "npm start --prefix server",
+    "seed": "npm run seed --prefix server -- --reset",
+    "test": "npm test --prefix server"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}
